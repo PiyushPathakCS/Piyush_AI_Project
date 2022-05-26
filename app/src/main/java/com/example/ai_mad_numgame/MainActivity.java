@@ -173,7 +173,8 @@ public class MainActivity extends AppCompatActivity {
     public String getInterpretation(int [][]dataFrame,double slope){
        //provide interpretation based on your slope analysis
         // Your code here
-
+        if(slope==0 && dataFrame[0][1]==3)
+            interpretor="You aciehved Perfection";
         if(slope<0.5){
            interpretor=  "slow learner";
         }
