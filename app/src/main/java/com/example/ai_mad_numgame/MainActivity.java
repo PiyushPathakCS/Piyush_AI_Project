@@ -179,7 +179,7 @@ public class MainActivity extends AppCompatActivity {
         if(slope==0 && dataFrame[0][1]==0)
             interpretor="You didn't learn anything";
         if(slope<0.5){
-           interpretor=  "slow learner";
+           interpretor=  "You learn but you are a slow learner";
         }
         if (slope>0.5){
             interpretor= "good learner";
