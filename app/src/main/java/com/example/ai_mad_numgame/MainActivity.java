@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity {
            interpretor=  "You learn but you are a slow learner";
         }
         if (slope>0.5){
-            interpretor= "good learner";
+            interpretor= "You are a good learner";
         }
         return interpretor;
     }
